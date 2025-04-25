@@ -39,9 +39,9 @@ for i=1:numel(d)
         end
     end
 fclose(fid);
-all_out{i} = out;%variable all_out contains structure of every subject's data 
+allOut{i} = out;%variable allOut contains structure of every subject's data 
 end
-clearvars -except all_out
+clearvars -except allOut
 
 %% Calculate cumulative lever presses
 % Things to potentially edit:
@@ -84,7 +84,7 @@ for i = 1:length(allOut)
     end
 
     % Store the cumulative data in an array with subject info
-    cumulLP{end+1} = [subNum, subjectCumulLP]; 
+    cumulLP{end+1;1} = [subNum, subjectCumulLP]; 
 end
 
 % Export to a .csv
