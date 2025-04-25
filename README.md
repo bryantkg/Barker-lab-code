@@ -5,3 +5,5 @@ CumulLP.m cumulatively quantifies lever presses (or whatever variable of interes
 magCheckAnalysis.m quantifies the percentage of lever presses followed by a magazine entry vs. by another lever press
 
 vgbAnalysis.m quantifies the probabilities of win-stay and lose-shift for the value-guided decision-making task
+
+behavEconExcelGenerator.m generates per subject excel files from the behavioral economics MEDPC program to be read/analyzed by a R script
