@@ -127,8 +127,5 @@ end
 %% Write the results to a CSV file which can be opened in Excel
 endFilename = 'CHANGEFILENAMEHERE.csv';  % Replace with a filename of your choice
 
-data = num2cell(percentMagCheck);
-header = {'Animal ID', 'Percent Mag Checking'};
-writecell([header; data], endFilename);
-
+writematrix('percentMagCheck', endFilename);
 disp(['Results saved to ', endFilename]);
