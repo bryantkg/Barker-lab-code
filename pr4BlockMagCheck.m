@@ -127,5 +127,5 @@ end
 %% Write the results to a CSV file which can be opened in Excel
 endFilename = 'CHANGEFILENAMEHERE.csv';  % Replace with a filename of your choice
 
-writematrix('percentMagCheck', endFilename);
+writematrix(percentMagCheck, endFilename);
 disp(['Results saved to ', endFilename]);
